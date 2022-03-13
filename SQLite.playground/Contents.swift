@@ -1,10 +1,5 @@
 import SQLite
 
-
-//let path = NSSearchPathForDirectoriesInDomains(
-//    .documentDirectory, .userDomainMask, true
-//).first!
-
 /// Create an in-memory database
 let db = try Connection(.inMemory)
 
